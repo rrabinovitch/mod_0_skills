@@ -1,0 +1,9 @@
+food = "pizza"
+is_delicious = true
+food = "bagel"
+num2 = 2
+num7 = 7
+quotient = num7 / num2
+songs = ["Hit Me Baby One More Time", "Toxic", "Oops I Did It Again"]
+songs.shift
+food.length
