@@ -5,7 +5,7 @@
   1. `entree_name` (string)
   2. `price` (float)
   3. `number_dishes_available` (integer; ie, how many more times can the dish be ordered, based on ingredients in stock)
-  4. `ingredients` (hash; key = ingredient name, value = ingredient amount in cups)
+  4. `ingredients` (hash; key = ingredient name as string, value = ingredient amount as string, to allow for different unit types)
 * Methods:
   1. `place_order(entree_name)`: a customer places an order for a specific entree, taking the argument using the entree_name so that we know which specific entree is being ordered
     * Utilizes `entree_name` and `entree_price`, and modifies `number_dishes_available`
